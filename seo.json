@@ -1,0 +1,137 @@
+{
+  "project": "Public Writer Tangier",
+  "domain": "KnownHouses.com",
+  "base_url": "https://knownhouses.com/public-writer-tangier/",
+  "whatsapp": "+212602321305",
+  "email": "salatrir@gmail.com",
+  "location": {
+    "city": "Tanger",
+    "country": "Maroc",
+    "region": "Tanger-Tétouan-Al Hoceïma",
+    "coordinates": { "lat": 35.7595, "lng": -5.8340 },
+    "postalCode": "90000"
+  },
+  "languages": ["ar", "fr", "en", "es"],
+  "pages": {
+    "home": {
+      "ar": {
+        "title": "كاتب عمومي طنجة | خدمات الكتابة والترجمة الإدارية",
+        "description": "كاتب عمومي محترف في طنجة. خدمات الكتابة الإدارية، السيرة الذاتية، الترجمة، الشكايات والطعون.",
+        "h1": "نكتب بدلاً عنك، نحل مشاكلك الإدارية",
+        "keywords": ["كاتب عمومي طنجة","خدمات كتابة إدارية","ترجمة وثائق طنجة","سيرة ذاتية احترافية"]
+      },
+      "fr": {
+        "title": "Écrivain Public Tanger | Services Administratifs & Traduction",
+        "description": "Écrivain public professionnel à Tanger, Maroc. Rédaction administrative, CV, traduction, lettres officielles.",
+        "h1": "Vos démarches administratives simplifiées",
+        "keywords": ["écrivain public Tanger","services administratifs Tanger","traduction documents Tanger","CV professionnel"]
+      },
+      "en": {
+        "title": "Public Writer Tangier | Administrative & Translation Services",
+        "description": "Professional public writer in Tangier, Morocco. Administrative writing, CV creation, document translation, official letters.",
+        "h1": "Your documents, written right",
+        "keywords": ["public writer Tangier","administrative services Morocco","document translation Tangier","professional CV Morocco"]
+      },
+      "es": {
+        "title": "Escritor Público Tánger | Servicios Administrativos y Traducción",
+        "description": "Escritor público profesional en Tánger, Marruecos. Redacción administrativa, CV, traducción de documentos.",
+        "h1": "Sus trámites, bien redactados",
+        "keywords": ["escritor público Tánger","servicios administrativos Marruecos","traducción documentos Tánger"]
+      }
+    },
+    "services": {
+      "admin": {
+        "slug": "administrative-services",
+        "ar": {"title": "الخدمات الإدارية — كاتب عمومي طنجة"},
+        "fr": {"title": "Services Administratifs — Écrivain Public Tanger"},
+        "en": {"title": "Administrative Services — Public Writer Tangier"},
+        "es": {"title": "Servicios Administrativos — Escritor Público Tánger"}
+      },
+      "employment": {
+        "slug": "employment-services",
+        "ar": {"title": "السيرة الذاتية ورسائل التحفيز — كاتب عمومي طنجة"},
+        "fr": {"title": "CV & Lettres de Motivation — Écrivain Public Tanger"},
+        "en": {"title": "CV & Cover Letters — Public Writer Tangier"},
+        "es": {"title": "CV y Cartas de Presentación — Escritor Público Tánger"}
+      },
+      "translation": {
+        "slug": "translation-services",
+        "ar": {"title": "خدمات الترجمة — كاتب عمومي طنجة"},
+        "fr": {"title": "Services de Traduction — Tanger Maroc"},
+        "en": {"title": "Document Translation Services — Tangier Morocco"},
+        "es": {"title": "Traducción de Documentos — Tánger Marruecos"}
+      },
+      "immigration": {
+        "slug": "immigration-visa-services",
+        "ar": {"title": "مساعدة التأشيرات والهجرة — طنجة"},
+        "fr": {"title": "Assistance Visa & Immigration — Tanger"},
+        "en": {"title": "Visa & Immigration Assistance — Tangier"},
+        "es": {"title": "Asistencia de Visados — Tánger"}
+      },
+      "legal": {
+        "slug": "legal-document-services",
+        "ar": {"title": "الخدمات القانونية والوثائقية — طنجة"},
+        "fr": {"title": "Services Juridiques & Documentaires — Tanger"},
+        "en": {"title": "Legal & Document Services — Tangier"},
+        "es": {"title": "Servicios Jurídicos — Tánger"}
+      },
+      "business": {
+        "slug": "business-services",
+        "ar": {"title": "خدمات الأعمال — كاتب عمومي طنجة"},
+        "fr": {"title": "Services aux Entreprises — Tanger"},
+        "en": {"title": "Business Writing Services — Tangier"},
+        "es": {"title": "Servicios Empresariales — Tánger"}
+      },
+      "digital": {
+        "slug": "digital-services",
+        "ar": {"title": "الخدمات الرقمية — كاتب عمومي طنجة"},
+        "fr": {"title": "Services Numériques — Tanger"},
+        "en": {"title": "Digital Document Services — Tangier"},
+        "es": {"title": "Servicios Digitales — Tánger"}
+      }
+    },
+    "blog": {
+      "total_articles": 230,
+      "by_language": {"ar": 100, "fr": 50, "en": 50, "es": 30}
+    }
+  },
+  "schema_types": [
+    "LocalBusiness",
+    "ProfessionalService",
+    "WebSite",
+    "FAQPage",
+    "Article",
+    "Review",
+    "AggregateRating",
+    "BreadcrumbList",
+    "ContactPoint",
+    "OpeningHoursSpecification"
+  ],
+  "core_web_vitals_targets": {
+    "LCP": "< 2.5s",
+    "FID": "< 100ms",
+    "CLS": "< 0.1",
+    "TTFB": "< 600ms"
+  },
+  "seo_checklist": {
+    "canonical_urls": true,
+    "hreflang_tags": true,
+    "open_graph": true,
+    "twitter_cards": true,
+    "schema_structured_data": true,
+    "sitemap_xml": true,
+    "robots_txt": true,
+    "mobile_first": true,
+    "rtl_support": true,
+    "pwa_manifest": true,
+    "service_worker": true,
+    "https": "required",
+    "image_alt_texts": true,
+    "internal_linking": true,
+    "breadcrumbs": true,
+    "faq_schema": true,
+    "local_business_schema": true,
+    "geo_meta_tags": true,
+    "multilingual_metadata": true
+  }
+}

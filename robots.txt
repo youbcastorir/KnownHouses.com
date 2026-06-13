@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/private paths if any
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow key resources
+Allow: /style.css
+Allow: /app.js
+Allow: /translations.js
+Allow: /services.js
+Allow: /blog.js
+Allow: /manifest.json
+
+# Sitemap
+Sitemap: https://knownhouses.com/public-writer-tangier/sitemap.xml
+
+# Crawl delay for courtesy
+Crawl-delay: 1
+
+# Allow major search bots explicitly
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
